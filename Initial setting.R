@@ -15,7 +15,7 @@ library("R2jags")
 
 
 #Read data
-data <- read.table("Population_2.txt",header = T)
+data <- read.table("Population_data.txt",header = T)
 pop_m <- readRDS("pop_m.rds")
 pop_f <- readRDS("pop_f.rds")
 
