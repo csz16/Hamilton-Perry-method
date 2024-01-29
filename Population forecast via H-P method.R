@@ -1,3 +1,7 @@
+require(demography)
+require(ftsa)
+require(TSA)
+
 linear_interpolated_pop <- function(data, new_age, age, forecast_year) {
   # Initialize an empty list to store interpolated data for each year
   interpolated_data_list <- list()
